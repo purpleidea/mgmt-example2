@@ -1,0 +1,9 @@
+import "fmt"
+
+import "../data/"
+
+class hello() {
+	print "hello from nested" {
+		msg => fmt.printf("name is: %s", $data.name),
+	}
+}

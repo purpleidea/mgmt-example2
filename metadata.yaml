@@ -1,0 +1,4 @@
+license: LGPL3+
+main: "main/hello.mcl"	# this is NOT the default and can be omitted
+files: "files/"		# these are some extra files we can use (is the default)
+#path: "path/"		# where to look for modules, defaults to using a global
